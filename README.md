@@ -6,10 +6,16 @@ Current supported languages:
   Java, 
   Python,
   C#,
+  C,
   C++
   
 Languags coming soon:
-  C
+  R, 
+  Go, 
+  Kotlin, 
+  JavaScript,
+  TypeScript,
+  Julia
 
 Instructions:
   Choose the file of the programming language you intend to use it for. For example, if you're going to use it for Python, choose the .py file.
