@@ -28,4 +28,5 @@ Usage:
   C#:
     When you are in in your file or class that you are going to code in, and you want to use a catmethods method, type: catmethods.(and then the method you want to access)
     
+  C or C++:
     When you are in in your file or class that you are going to code in, put #include "catmethods.h" at the beginning. Then you can just type the name of the function you want to access and there you go
