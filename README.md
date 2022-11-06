@@ -4,11 +4,11 @@ A set of methods for making development easier
 
 Current supported languages: 
   Java, 
-  Python
+  Python,
+  C#
   
 Languags coming soon:
-  C#
-  , C++
+  C++
   , C
 
 Instructions:
@@ -20,7 +20,10 @@ Instructions:
 Usage:
   
   Java:
-    When you are in in your file or class that you are going to code in, and you want to use a catmethods method, type: catmethod.(and then the method you want to access)
+    When you are in in your file or class that you are going to code in, and you want to use a catmethods method, type: catmethods.(and then the method you want to access)
   
   Python:
-    When you are in in your file or class that you are going to code in, and you want to use a catmethods method, type: catmethod.(and then the method you want to access)
+    When you are in in your file or class that you are going to code in, and you want to use a catmethods method, type: catmethods.(and then the method you want to access)
+    
+  C#:
+    When you are in in your file or class that you are going to code in, and you want to use a catmethods method, type: catmethods.(and then the method you want to access)
