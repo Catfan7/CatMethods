@@ -7,10 +7,10 @@ Current supported languages:
   Python,
   C#,
   C,
-  C++
+  C++,
+  R
   
 Languags coming soon:
-  R, 
   Go, 
   Kotlin, 
   JavaScript,
@@ -36,3 +36,6 @@ Usage:
     
   C or C++:
     When you are in in your file or class that you are going to code in, put #include "catmethods.h" at the beginning. Then you can just type the name of the function you want to access and there you go
+    
+  R:
+    Litterally nothing all you have to do is type the name of the function when you want to use it
