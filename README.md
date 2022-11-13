@@ -12,7 +12,6 @@ Current supported languages:
   Go
   
 Languags coming soon:
-  Kotlin, 
   JavaScript,
   TypeScript,
   Julia
