@@ -8,10 +8,10 @@ Current supported languages:
   C#,
   C,
   C++,
-  R
+  R,
+  Go
   
 Languags coming soon:
-  Go, 
   Kotlin, 
   JavaScript,
   TypeScript,
@@ -39,3 +39,6 @@ Usage:
     
   R:
     Litterally nothing all you have to do is type the name of the function when you want to use it
+    
+  Go:
+    Same as R
