@@ -9,11 +9,10 @@ Current supported languages:
   C,
   C++,
   R,
-  Go
+  Go,
+  JavaScript
   
 Languags coming soon:
-  JavaScript,
-  TypeScript,
   Julia
 
 Instructions:
