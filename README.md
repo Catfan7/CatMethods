@@ -40,3 +40,6 @@ Usage:
     
   Go:
     Same as R
+    
+  Javascript - NodeJS:
+    At the beginning of the file, type:  const catmethods = require("./catmethods-1.0-NodeJS.js")
