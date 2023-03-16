@@ -1,11 +1,32 @@
 #include <stdio.h>
 
-void prts(char x[]) {
-    printf("%s", x);
+// "newline" determines whether a new line is created after the statement is printed
+// set newline to 1 to do so
+void prts(char toPrint[], int newline) {
+    printf("%s", toPrint);
+    if (newline == 1) {
+        printf("\n");
+    }
 }
-static void prti(int x) { printf("%d", x); }
-static void prtf(float x) { printf("%f", x); }
-static void prtc(char x) { printf("%c", x); }
+static void prti(int toPrint, int newline) {
+    printf("%d", toPrint);
+    if (newline == 1) {
+        printf("\n");
+    }
+}
+static void prtf(float toPrint, int newline) {
+    printf("%f", toPrint);
+    if (newline == 1) {
+        printf("\n");
+    }
+}
+static void prtc(char toPrint, int newline) { 
+    printf("%c", toPrint);
+    if (newline == 1) {
+        printf("\n");
+    }
+}
+
 static double CelToFah(double x) {
     return (x * 1.8) + 32;
 }
@@ -42,7 +63,7 @@ static double RanToFah(double x) {
 static double RanToKel(double x) {
     return x / 1.8;
 }
-static char scanStr() {
+static char * scanStr() {
     char x[2056];
     scanf("%s", x);
     return x;
@@ -58,7 +79,7 @@ static float scanFlt() {
     return x;
 }
 static void helloWorld() {
-    prts("Hello, world!");
+    prts("Hello, world!", 1);
 }
 static int calculator(int op, int x, int y) {
     int ans = 69420;
