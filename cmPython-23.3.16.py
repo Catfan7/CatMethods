@@ -1,8 +1,10 @@
 import tkinter as tk
 
 
-def prt(x):
-    print(x)
+def prt(x, newline):
+    print(x, end="")
+    if newline == True:
+        print("")
 
 
 def CelToFah(x):
@@ -78,4 +80,4 @@ def scanBool():
 
 
 def helloWorld():
-    prt("Hello, world!")
+    prt("Hello, world!", True)
