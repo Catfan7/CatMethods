@@ -4,20 +4,32 @@ import (
 	"fmt"
 )
 
-func prts(x string) {
-	fmt.Println(x)
+func prts(x string, newline bool) {
+	fmt.Print(x, newline bool)
+	if (newline == true) {
+		fmt.Println("")
+	}
 }
 
-func prti(x int) {
+func prti(x int, newline bool) {
 	fmt.Println(x)
+	if (newline == true) {
+		fmt.Println("")
+	}
 }
 
-func prtf32(x float32) {
+func prtf32(x float32, newline bool) {
 	fmt.Println(x)
+	if (newline == true) {
+		fmt.Println("")
+	}
 }
 
-func prtf64(x float64) {
+func prtf64(x float64, newline bool) {
 	fmt.Println(x)
+	if (newline == true) {
+		fmt.Println("")
+	}
 }
 
 func CelToFah(x float32) (result float32) {
