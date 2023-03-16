@@ -8,12 +8,12 @@ Current supported languages:
   C#,
   C,
   C++,
-  R,
   Go,
   JavaScript
   
 Languags coming soon:
-  Julia
+  Julia,
+  Rust
 
 Instructions:
   Choose the file of the programming language you intend to use it for. For example, if you're going to use it for Python, choose the .py file.
@@ -35,11 +35,8 @@ Usage:
   C or C++:
     When you are in in your file or class that you are going to code in, put #include "catmethods.h" at the beginning. Then you can just type the name of the function you want to access and there you go
     
-  R:
-    Litterally nothing all you have to do is type the name of the function when you want to use it
-    
   Go:
     Same as R
     
   Javascript - NodeJS:
-    At the beginning of the file, type:  const catmethods = require("./catmethods-1.0-NodeJS.js")
+    At the beginning of the file, type:  const catmethods = require("./filename.js")
