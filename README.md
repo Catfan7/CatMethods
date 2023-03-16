@@ -36,7 +36,7 @@ Usage:
     When you are in in your file or class that you are going to code in, put #include "catmethods.h" at the beginning. Then you can just type the name of the function you want to access and there you go
     
   Go:
-    Same as R
+    Litteraly nothing
     
   Javascript - NodeJS:
     At the beginning of the file, type:  const catmethods = require("./filename.js")
