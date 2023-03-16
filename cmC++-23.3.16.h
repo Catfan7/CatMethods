@@ -1,13 +1,34 @@
 #include <iostream>
 
-void prts(std::string x) {
+using std::endl;
+// "bool newline" determines whether a new line is printed after the text
+void prts(std::string x, bool newline) {
     std::cout << x;
+    if (newline) {
+        std::cout << endl;
+    }
 }
-static void prti(int x) { std::cout << x; }
-static void prtf(float x) { std::cout << x; }
-static void prtd(double x) { std::cout << x; }
-static void prtb(bool x) { std::cout << x; }
-static void prtc(char x) { std::cout<<x; }
+static void prti(int x, bool newline) { std::cout << x; if (newline) {
+    std::cout << endl;
+}
+}
+static void prtf(float x, bool newline) { std::cout << x; if (newline) {
+    std::cout << endl;
+}
+}
+static void prtd(double x, bool newline) { std::cout << x; if (newline) {
+    std::cout << endl;
+}
+}
+static void prtb(bool x, bool newline) { std::cout << x; if (newline) {
+    std::cout << endl;
+}
+}
+static void prtc(char x, bool newline) { std::cout << x; if (newline) {
+    std::cout << endl;
+}
+}
+
 static double CelToFah(double x) {
     return (x * 1.8) + 32;
 }
@@ -65,7 +86,7 @@ static double scanDob() {
     return x;
 }
 static void helloWorld() {
-    prts("Hello, world!");
+    prts("Hello, world!", true);
 }
 static int calculator(int op, int x, int y) {
     int ans = 69420;
