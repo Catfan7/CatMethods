@@ -38,37 +38,37 @@ public class cmJava {
     public static double RanToKel(double x) {
         return x / 1.8;
     }
-    public static void prts(String x, boolean newline) {
+    public static void prt(String x, boolean newline) {
         System.out.print(x);
         if (newline) {
             System.out.print("\n");
         }
     }
-    public static void prti(int x, boolean newline) {
+    public static void prt(int x, boolean newline) {
         System.out.print(x);
         if (newline) {
             System.out.print("\n");
         }
     }
-    public static void prtf(float x, boolean newline) {
+    public static void prt(float x, boolean newline) {
         System.out.print(x);
         if (newline) {
             System.out.print("\n");
         }
     }
-    public static void prtd(double x, boolean newline) {
+    public static void prt(double x, boolean newline) {
         System.out.print(x);
         if (newline) {
             System.out.print("\n");
         }
     }
-    public static void prtb(boolean x, boolean newline) {
+    public static void prt(boolean x, boolean newline) {
         System.out.print(x);
         if (newline) {
             System.out.print("\n");
         }
     }
-    public static void prtc(char x, boolean newline) {
+    public static void prt(char x, boolean newline) {
         System.out.print(x);
         if (newline) {
             System.out.print("\n");
